@@ -1,88 +1,125 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Railsチュートリアル「HTML編]</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Learn Enoughのあらまし</h1>
-
+---
+layout: default
+---
+<div class="home">
+  <div class="full-hero hero-home">
+    <div class="hero-content">
+      <h1>CODE DANGEROUSLY</h1>
+      <ul class="social-list">
+        <li>
+          <a href="https://www.facebook.com/yasslab.jp" class="social-link">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/RailsTutorialJP" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/yasslab" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="home-callout">
+    <h1 class="callout-title">The Learn Enough Story</h1>
+    <div class="callout-copy">
+      <p>
+        Learn Enough to Be Dangerous is a leader in the movement to teach the world
+        <em>technical sophistication</em>, which includes both "hard skills" like
+        coding, command lines, and version control, and "soft skills" like guessing
+        keyboard shortcuts, Googling error messages, and knowing when to just
+        reboot the darn thing.
+      </p>
+      <p>
+        We believe there are <strong>at least a billion people</strong> who can
+        benefit from learning technical sophistication, probably more. To join our
+        movement, <a href="https://learnenough.com/#email_list">sign up for our
+          official email list</a> now.
+      </p>
+      <h3>Background</h3>
+      <p>
+        Learn Enough to Be Dangerous is an outgrowth of the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the
+        <a href="https://www.softcover.io/">Softcover publishing platform</a>. This
+        page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
+            to Be Dangerous</em></a>, which teaches the basicics of
+        <strong>C</strong>ascading <strong>S</strong>tyle
+        <strong>S</strong>heets, the language that
+        allows web pages to be styled. Other related tutorials can be found at
+        <a href="https://learnenough.com/">learnenough.com</a>.
+      </p>
+    </div>
+  </div>
+  
+  <div class="home-section">
+    <h2>THE FOUNDERS</h2>
     <p>
-        HTMLは、初代Web「開発者」であるコンピューター科学者<a href="https://ja.wikipedia.org/wiki/
-        %E3%83%86%E3%82%A3%E3%83%A0%E3%83%BB%E3%83%90%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%BA%EF
-        %BC%9D%E3%83%AA%E3%83%BC">ティム・バーナーズ＝リー（Tim Berners-Lee）</a>によって作り出されま
-        した。サー・ティムは自分の猫画像を共有するためにHTMLを発明したという話は冗談ですが、そうだということに
-        しておく方がクールではありませんか？
+      Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee
+      Donahoe, and Nick Merwin. We believe that the kind of technical
+      sophistication taught by the Learn Enough tutorials can benefit at least a
+      billion people, and probably more.
     </p>
   
-    <p>
-        『Learn Enough to Be Dangerous』は、<a href="https://railstutorial.jp/">Ruby on Rails
-        チュートリアル</a>事業および<a href="https://www.softcover.io/">Softcover: 出版プラット
-        フォーム</a>事業から必然的に生まれました。このページは、<a href="https://railstutorial.jp/
-        html"><em>Railsチュートリアル「HTML編」</em></a>で用いるサンプルWebサイトの一部です。同書では、
-        World Wide Webで全面的に利用されている言語であるHTML（<strong>H</strong>yper<strong>T
-        </strong>ext <strong>M</strong>arkup <strong>L</strong>anguage）の基礎を学べます。
-        その他のチュートリアル情報にご興味のある方は、<a href="https://railstutorial.jp/path">
-        コンテンツ一覧</a>をどうぞご覧ください。
-    </p>
-
-    <img src="images/kitten.jpg" alt="愛くるしい子猫">
-
-
-    <h2>創立までの流れ</h2>
-
-    <h2>創立メンバー</h2>
-        <p>
-            『Learn Enough to Be Dangerous』は2015年にマイケル・ハートル、リー・ドナヒュー、ニック・メルウィンの
-            3名によって創立されました。私たちは、Learn Enoughチュートリアルを通じて広めている「技術の成熟」の教えに
-            よって、全世界で<strong><em>少なくとも10億人</em></strong>（おそらくそれ以上）が大きなメリットを得られると信じて活動を続けています。
-        </p>
-
-    <h3>マイケル・ハートル</h3>
-    <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150"
-    alt="マイケル・ハートル">
-
-        <p>
-          マイケル・ハートル（Michael Hartl）は<a href="https://railstutorial.jp/">
-          Ruby on Railsチュートリアル</a>の原著者であり、<a href="https://railstutorial.jp/path">
-          本チュートリアルシリーズ</a>の原著『Learn Enough to Be Dangerous』の代表
-          原著者でもあります。<a href="https://www.kravmaga.com/">Krav Magaフィットネス通信教育
-          </a>の上級学生であり、3ステップで完了する世界征服計画を胸に秘めています。実は大悪人という噂は
-          ほとんど根も葉もないものです。
-        </p>
-        <p>
-            マイケルのTwitterフォローをお願いします:
-            <a href="https://twitter.com/mhartl">ここをクリック</a>。
-        </p>
-    
-    <h3>リー・ドナヒュー</h3>
-    <img src="https://gravatar.com/avatar/b65522a6f3a6899705d119d7aa232a6d?s=150"
-    alt="リー・ドナヒュー">
-    
-        <p>
-          文字どおりサメと泳ぎを競ったりスノボに乗ってパウダースタッシュパンツ狩りをしてないときのリーは、
-          コンピュータの前に座ってインターフェイスをデザインしたりフロントエンド開発を手掛けたり、Learn
-          Enoughチュートリアルのインターフェイス関連部分を執筆しています。
-        </p>
-        <p>
-            リーのTwitterフォローをお願いします:
-            <a href="https://twitter.com/leedonahoe">ここをクリック</a>。
-        </p>
-      
-    
-    <h3>ニック・メルウィン</h3>
-    <img src="https://gravatar.com/avatar/e2d6ce2ba5c1b6d674ae8ff2b3b45d23?s=150"
-    alt="ニック・メルウィン">
-    
-        <p>
-          ジミー・キンメル、コナン、エレン・ショーなどで開催されたキャピタル・シティーズのライブでニックの
-          超絶速弾きギターをご覧になった方もいらっしゃるかもしれませんが、ニックは骨の髄までナードですので
-          どうかご安心を。ツアーバスの中でコードをかき鳴らすのが楽しいのと同じぐらい、自宅のキッチンで美しい
-          コードを書きまくると楽しくなります。
-        </p>
-        <p>
-            ニックのTwitterフォローをお願いします:
-            <a href="https://twitter.com/nickmerwin">ここをクリック</a>。
-        </p>
-  </body>
-</html>
+    <div class="bio-wrapper">
+      <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
+        <h3>Michael Hartl</h3>
+        <a href="https://twitter.com/mhartl" class="social-link">
+          Tw
+        </a>
+        <div class="bio-copy">
+          <p>
+            Known for his dazzling charm, rapier wit, and unrivaled humility,
+            Michael is the creator of the
+            <a href="https://www.railstutorial.org/">Ruby on Rails
+              Tutorial</a> and principal author of the
+            <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a>
+            introductory sequence.
+          </p>
+          <p>
+            Michael is also notorious as the founder of
+            <a href="http://tauday.com/">Tau Day</a> and author of
+            <a href="http://tauday.com/tau-manifesto"><em>The Tau
+                Manifesto</em></a>, but rumors that he's secretly a supervillain are
+            slightly exaggerated.
+          </p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
+        <h3>Lee Donahoe</h3>
+        <a href="https://twitter.com/leedonahoe" class="social-link">
+          Tw
+        </a>
+        <div class="bio-copy">
+          <p>
+            When he's not literally swimming with sharks or hunting powder stashes
+            on his snowboard, you can find Lee in front of his computer designing
+            interfaces, doing front-end development, or writing some of the
+            interface-related Learn Enough tutorials.
+          </p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
+        <h3>Nick Merwin</h3>
+        <a href="https://twitter.com/nickmerwin" class="social-link">
+          Tw
+        </a>
+        <div class="bio-copy">
+          <p>
+            You may have seen him shredding guitar live with Capital Cities on
+            Jimmy Kimmel, Conan, or The Ellen Show, but rest assured Nick is a true
+            nerd at heart. He's just as happy shredding well-spec'd lines of code
+            from a tour bus as he is from his kitchen table.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
